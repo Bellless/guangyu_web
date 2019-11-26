@@ -1,0 +1,772 @@
+/*走进光宇*/
+/*通用颜色处理*/
+.color-base {
+    background-color: transparent !important;
+}
+
+/*通用首行缩进尺寸*/
+.text_index{
+    text-indent: 20px;
+}
+/*计算1200px尺寸的边距*/
+.base-margin {
+    margin-left: 140px;
+}
+
+/*新闻详情*/
+.news-base {
+    position: relative;
+    padding-bottom: 100px;
+}
+
+/*底色背景*/
+.base-template {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+}
+
+
+/*集团介绍*/
+.introduction-lan {
+    text-align: center;
+}
+
+.introduction-lan a {
+    font-size: 20px;
+    font-weight: 900;
+    color: #333;
+    text-decoration: none;
+    margin-left: 50px;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+.introduction-lan a:hover {
+    color: #337ab7;
+}
+
+/*50强图标*/
+.fifty-icon img {
+    width: 100%;
+    height: auto;
+}
+
+/*内容区*/
+/*集团介绍*/
+.brief {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: snow;
+    padding-bottom: 50px;
+}
+
+.about {
+    text-align: center;
+    padding: 50px 0 20px 0;
+}
+
+.about-div {
+    padding: 0 80px;
+}
+
+/*集团介绍图片大小*/
+.brief-pic-one img {
+    width: 60%;
+}
+
+.brief-pic-two img {
+    width: 40%;
+    float: right;
+    /*height: 489px;*/
+    /*margin-left: 16px;*/
+}
+
+.brief-pic-one {
+    display: inline-block;
+}
+
+.brief-pic-two {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.brief-pic-two h2 {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.brief-pic-three-p h2 {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.brief-pic-one-p {
+    display: inline-block;
+    position: relative;
+    width: 333px;
+    margin-left: 20px;
+    padding-top: 30px;
+}
+
+.brief-pic-one-p p {
+    font-size: 16px;
+}
+
+.brief-pic-two-p {
+    display: inline-block;;
+    width: 372px;
+}
+
+.brief-pic-two-p p {
+    font-size: 16px;
+}
+
+.brief-pic-three-p p {
+    font-size: 16px;
+}
+
+/*蓝色竖条*/
+.brief-pic-two-border {
+    width: 5px;
+    height: 24px;
+    background-color: #337ab7;
+    position: absolute;
+    transform: translateY(76%);
+}
+
+.brief-pic-three-border {
+    width: 5px;
+    height: 24px;
+    background-color: #337ab7;
+    position: absolute;
+    transform: translateY(-2%);
+}
+
+/********************/
+/*集团发展历程*/
+.development {
+    display: inline-block;
+    padding: 87px 100px 25px 100px;
+}
+
+.development-time {
+    transform: translateY(-7%);
+}
+
+.development h3 {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.development img {
+    display: inline-block;
+    margin-left: 15px;
+    top: 50px;
+    transform: translateY(-13%);
+}
+
+.development-border {
+    width: 2px;
+    height: 50px;
+    background-color: #337ab7;
+    margin-left: 150px;
+}
+
+.development-border-end {
+    width: 2px;
+    height: 50px;
+    background-color: #337ab7;
+    margin-left: 150px;
+    transform: translateY(-33%);
+}
+
+.development-div {
+    margin-top: -17px;
+}
+
+.development-div p {
+    display: inline-block;
+    margin-left: 10px;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.development-div a {
+    display: inline-block;
+    font-size: 18px;
+    color: #C3C3C3;
+    margin-left: 89px;
+}
+
+.development-div-div {
+    transform: translateY(-10%);
+}
+
+/*集团发展时间串 圆形图标*/
+.development-icon {
+    display: inline-block;
+    border: 1px solid blue;
+    border-radius: 30px;
+    height: 15px;
+    width: 15px;
+    box-shadow: 0 0 0 1px #337ab7;
+    margin-left: 11px;
+}
+
+/*企业荣誉*/
+.honer {
+    display: inline-block;
+    margin-left: 75px;
+    margin-top: 20px;
+    background-color: #F5F2ED;
+}
+
+.rate-img {
+    transform: rotate(180deg);
+
+    ms-transform: rotate(180deg); /* IE 9 */
+
+    moz-transform: rotate(180deg); /* Firefox */
+
+    webkit-transform: rotate(180deg); /* Safari and Chrome */
+
+    o-transform: rotate(180deg); /* Opera */
+}
+
+.honer img {
+    width: 294px;
+    height: 216px;
+    /*margin-left: 26px;*/
+}
+
+.honer p {
+    font-size: 13px;
+    color: #844F45;
+    margin-top: 25px;
+    width: 276px;
+    transform: translateX(14%);
+    font-weight: 800;
+}
+
+.p-div p {
+    height: 55px;
+}
+
+/*企业文化*/
+.culture {
+    height: 34px;
+    width: 82%;
+    background-color: #E6F4FF;
+    margin: 0 auto;
+}
+
+.culture h2 {
+    transform: translateY(22%);
+    font-size: 22px;
+    margin-left: 2px;
+    color: rgba(44, 160, 253, 1);
+}
+
+.culture-div {
+    margin-left: 102px;
+}
+
+.culture-div h3 {
+    font-size: 18px;
+    margin: 27px 0 22px 0;
+    font-weight: 900;
+}
+
+.culture-div-p {
+    width: 771px;
+    font-size: 16px;
+}
+
+/*新闻中心*/
+/*新闻首页*/
+.banner-font {
+    position: absolute;
+    width: 910px;
+    top: 282px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+}
+
+.banner-font p {
+    font-size: 36px;
+}
+
+.news {
+    width: 1200px;
+    margin: 0 auto;
+    /*调试颜色*/
+    /*background-color: red;*/
+}
+
+
+.news p {
+    font-size: 17px;
+    line-height: 26px;
+    width: 460px;
+    height: 160px;
+    overflow: hidden;
+}
+
+.news a {
+    color: blue;
+}
+
+.news h5 {
+    color: #B9B9B9;
+}
+
+.news h3 {
+    font-weight: 900;
+}
+
+.news-div {
+    display: inline-block;
+    padding-top: 85px;
+}
+
+.news-div img {
+    width: 50%;
+}
+
+.news-div-p {
+    display: inline-block;
+    position: relative;
+    margin-left: 20px;
+}
+
+.news-div-right {
+    padding-top: 20px;
+}
+
+.news-div-right img {
+    float: right;
+    width: 50%;
+}
+
+/*新闻详情*/
+.news-detail {
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px solid #DDDDDD;
+}
+
+.news-detail-div {
+    width: 96px;
+    margin-left: 365px;
+    transform: translateY(36%);
+    border-bottom: 3px solid #0792FD;
+}
+
+.news-detail-div h3 {
+    width: 100px;
+    padding-bottom: 35px;
+}
+
+.news-detail-position {
+    float: right;
+    transform: translateY(-130%);
+    margin-right: 610px;
+}
+
+.news-detail-position p {
+    display: inline-block;
+    font-size: 17px;
+}
+
+.news-detail-title {
+    width: 50%;
+    margin: 60px auto;
+    border-bottom: 2px solid #DDDDDD;
+}
+
+.news-detail-title h2 {
+    font-weight: 900;
+}
+
+.news-detail-title p {
+    padding: 10px 0 10px 0;
+    color: #878585;
+}
+
+.news-detail-content-header {
+    margin-left: 155px;
+}
+
+.news-detail-content {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.news-detail-content p {
+    width: 76%;
+    font-size: 17px;
+    color: #131517;
+}
+
+.news-detail-content-font p {
+    /*text-indent: 95px;*/
+    line-height: 28px;
+    text-indent: 20px;
+}
+
+.news-detail-content-return {
+    width: 13%;
+    float: right;
+    background-color: #0792FD;
+    text-align: center;
+}
+
+.news-detail-content-return a {
+    display: block;
+    text-decoration: none;
+    color: #EEF6FF;
+    font-size: 17px;
+    font-family: "Microsoft YaHei UI";
+}
+
+.news-detail-content-return p {
+    color: #EEF6FF;
+}
+
+.news-detail-content-return-div {
+    margin: -19px 0 0 55px;
+}
+.p-coy{
+    transform: translateX(70%);
+}
+
+/*集团产业*/
+/*光宇建设/地产*/
+.industry-show {
+    display: none;
+    position: absolute;
+    /*background-color: rgba(245,245,245,0.8);*/
+    margin-top: -10px;
+}
+
+.industry-show p {
+    padding: 0;
+    margin-top: 7px !important;
+}
+
+.industry {
+    display: inline-block;
+    background-color: #FFFFFF;
+    margin-left: 55px;
+    /*margin-left: 75px;*/
+    margin-bottom: 25px;
+    box-shadow: 0 1px 3px #cdcdcd;
+}
+
+.industry img {
+    width: 320px;
+    height: 366px;
+}
+
+.industry a {
+    display: block;
+    font-size: 18px;
+    color: #131313;
+    padding: 10px 0;
+    width: 275px;
+    transform: translateX(7%);
+    font-weight: 800;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.industry a:hover {
+    color: #337ab7;
+}
+
+.industry-btn {
+    position: relative;
+    width: 150px;
+    height: 40px;
+    margin: 35px auto;
+}
+
+.industry-btn button {
+    width: 100%;
+    height: 46px;
+    background-color: #0792FD;
+    border: none;
+    font-weight: 800;
+    font-size: 20px;
+    color: #FEFFFF;
+}
+
+.btn-load {
+    display: none;
+}
+
+/*光宇酒店*/
+.hotel {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.hotel img {
+    width: 470px;
+}
+
+.hotel-img {
+    height: 539px;
+}
+
+.hotel-div {
+    display: inline-block;
+    width: 470px;
+    height: 539px;
+    box-shadow: 0 1px 15px #cdcdcd;
+}
+
+.hotel-div img {
+    width: 150px;
+    margin: 0 auto;
+}
+
+.hotel-div-font {
+    text-align: center;
+    transform: translateY(50%);
+}
+
+.hotel-div-font a {
+    margin-bottom: 15px;
+    cursor: pointer;
+    display: block;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+.hotel-div-font a:hover {
+    color: #337ab7;
+}
+
+.hotel-div-font h4 {
+    margin-top: 24px;
+}
+
+.hotel-div-font p {
+    width: 260px;
+    line-height: 24px;
+    font-size: 16px;
+    margin: 25px 0 0 102px;
+}
+
+
+/*光宇物业*/
+.property {
+    padding: 80px 0 30px 0;
+}
+
+.property img {
+    display: inline-block;
+    width: 320px;
+    margin-left: 75px;
+}
+
+.property-div {
+    display: inline-block;
+    width: 150px;
+    margin: 30px 0 30px 205px;
+}
+
+.property-div p {
+    margin: 0 0 0 -17px;
+    width: 225px;
+    color: #949494;
+}
+
+.property-div h4 {
+    width: 55px;
+    font-weight: 800;
+    margin-left: 13px;
+}
+
+.property-img img {
+    width: 100%;
+}
+
+.property-img-font {
+    position: absolute;
+    text-align: center;
+    transform: translate(80%, -160%);
+}
+
+.property-img-font h5 {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.property-img-font p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.property-img-font h3 {
+    display: inline-block;
+    transform: translateY(-48%);
+    font-size: 19px;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.property-img-font h4 {
+    display: inline-block;
+    font-size: 48px;
+    color: #005FEF;
+    margin-left: 63px;
+}
+
+.property-img-p {
+    width: 740px;
+    color: rgba(255, 255, 255, 0.9);
+    transform: translateY(40%);
+}
+
+.property-img-time p {
+    display: inline-block;
+    color: #005FEF;
+}
+
+/*联系我们*/
+.connect {
+    width: 100%;
+    background-color: #EDEDED;
+    padding-bottom: 80px;
+}
+
+.connect img {
+    margin: 0 auto;
+}
+
+.connect-div {
+    width: 50%;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.connect-div img {
+    width: 100%;
+}
+
+.connect-text {
+    width: 50%;
+    margin: auto;
+    box-shadow: 0 -2px 9px #cdcdcd;
+    background-color: rgba(245, 245, 245, 0.8);
+}
+
+.connect-text-input {
+    display: inline-block;
+    margin-left: 52px;
+    padding: 30px 0;
+}
+
+.connect-text-input input {
+    width: 280px;
+    height: 40px;
+    background-color: #b7a5a559;
+    border: 1px solid transparent;;
+    padding-left: 5px !important;
+    font-weight: bolder;
+}
+
+.connect-text-input input::placeholder {
+    font-size: 16px;
+}
+
+.connect-message {
+    width: 90%;
+    height: 135px;
+    margin: auto;
+    background-color: #b7a5a559;
+    border: 1px solid #ffa500bd;;
+}
+
+/*.connect-message input:focus{*/
+/*!*去掉默认自带的边框样式*!*/
+/*outline: none;*/
+/*}*/
+.connect-message textarea {
+    width: 100%;
+    height: 135px;
+    border: 1px solid rgba(255, 182, 68, 0.2);;
+    padding-left: 5px !important;
+}
+
+.connect-message textarea::placeholder {
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.connect-btn {
+    padding: 50px;
+}
+
+/*光宇产业详情介绍*/
+.produce-detail {
+    padding-top: 50px;
+}
+
+.produce-detail img {
+    width: 350px;
+    height: 515px;
+}
+
+.produce-detail-div {
+    display: inline-block;
+    margin-left: 32px;
+}
+
+.produce-detail-div h3 {
+    color: #337ab7;
+}
+
+.produce-detail-div p {
+    font-size: 17px;
+    width: 300px;
+    line-height: 42px;
+    /*width: 500px;*/
+    /*text-indent: 20px;*/
+}
+
+.produce-detail-div img {
+    width: 775px;
+    height: 282px;
+}
+
+.produce-detail-div-other {
+    display: inline-block;
+    margin-left: 32px;
+}
+
+.produce-detail-div-other h3 {
+    color: #337ab7;
+
+}
+
+.produce-detail-div-other p {
+    font-size: 17px;
+    line-height: 42px;
+}
+
+.produce-detail-div-other img {
+    display: inline-block;
+    width: 582px;
+}
+.produce-detail-div-other.first img{
+    width: 385px;
+    padding-bottom: 10px;
+}
+.produce-detail-div-other.one img{
+    width: 1200px;
+}

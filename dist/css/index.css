@@ -1,0 +1,65 @@
+/*产业布局*/
+.six-order-font h1 {
+    padding-top: 65px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.six-order-font p {
+    font-size: 20px;
+    text-align: center;
+    color: #ADACAC;
+}
+
+.other-p {
+    margin-top: -39px;
+}
+
+.order {
+    /*inlin-block保证两个div元素能并排显示*/
+    /*inline-table保证两个div元素在同一高度显示*/
+    display: inline-table;
+    width: 267px;
+    box-shadow: 1px 1px 4px #cdcdcd;
+    margin: 30px 0 0 29px;
+}
+
+.order img {
+    width: 268px;
+}
+
+.order h3 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.order p {
+    margin-left: 20px;
+    font-size: 20px;
+    color: #ADACAC;
+}
+
+.order-div {
+    height: 230px;
+    width: 260px;
+    font-size: 20px;
+    color: #636363;
+}
+
+.order-div p {
+    width: 264px;
+    font-size: 18px;
+    margin-left: 4px;
+}
+
+
+/*合作伙伴*/
+.partner{
+    display: inline-block;
+    margin: 30px 0 65px 0;
+}
+
+.partner img{
+    width: 184px;
+    margin-left: 47px;
+}

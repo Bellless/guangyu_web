@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>建筑施工</title>
+    <link rel="stylesheet" href="dist/bootstarp/css/bootstrap.min.css">
+    <link rel="stylesheet" href="dist/css/public.css">
+    <link rel="stylesheet" href="dist/css/media.css">
+    <link rel="stylesheet" href="dist/css/common.css">
+    <link rel="stylesheet" href="dist/css/mode/head.css">
+    <link rel="stylesheet" href="dist/css/mode/reset.css">
+    <script src="dist/js/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+<div class="template-background-color">
+    <div class="template-background" style="width: 100%">
+        <!--pc端导航-->
+        <header class="header">
+            <div class="container clearfix">
+                <div class="fl left">
+                    <a href="index.html">
+                        <img src="dist/img/1.首页/icon_LOGO.png"/>
+                    </a>
+                </div>
+                <div class="fr nav">
+                    <ul class="navbar_nav" data-in="fadeInDown" data-out="fadeOutUp">
+                        <li class="active">
+                            <a href="index.html">首页</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="close-to-guangyu.html">
+                                走进光宇
+                            </a>
+                            <div class="dropdown_menu">
+                                <a href="close-to-guangyu.html">集团介绍</a>
+                                <a href="close-to-guangyu.html">发展历程</a>
+                                <a href="close-to-guangyu.html">企业荣誉</a>
+                                <a href="close-to-guangyu.html">企业文化</a>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a href="news.html">新闻中心</a>
+                            <div class="dropdown_menu">
+                                <a href="news.html">集团新闻</a>
+                                <a href="news-detail.html">行业新闻</a>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a href="guangyu-construction.html">
+                                集团产业
+                            </a>
+                            <div class="dropdown_menu">
+                                <a href="guangyu-realestate.html">地产开发</a>
+                                <a href="guangyu-construction.html">建筑施工</a>
+                                <a href="guangyu-hotel.html">酒店服务</a>
+                                <a href="guangyu-property.html">物业服务</a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="connect-us.html">联系我们</a>
+                        </li>
+                        <label style="margin:5px 10px 0 20px">
+                            <select>
+                                <option>EN</option>
+                                <option>Englis</option>
+                                <option>Austural</option>
+                            </select>
+                        </label>
+                        <a>
+                            <img src="dist/img/1.首页/icn-搜索.png" alt=""/>
+                        </a>
+                    </ul>
+                </div>
+                <a href="javascript:void(0)" id="navToggle">
+                    <span></span>
+                </a>
+            </div>
+        </header>
+        <!--移动端导航-->
+        <div class="m_nav">
+            <div class="top clearfix">
+                <img src="dist/css/mode/img/closed.png" class="closed"/>
+            </div>
+            <div class="logo">
+                <img src="dist/img/1.首页/icon_LOGO.png"/>
+            </div>
+            <ul class="ul" data-in="fadeInDown" data-out="fadeOutUp">
+                <li class="active">
+                    <a href="index.html">首页</a>
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)">
+                        走进光宇
+                    </a>
+                    <div class="dropdown_menu">
+                        <a href="close-to-guangyu.html">集团介绍</a>
+                        <a href="close-to-guangyu.html">发展历程</a>
+                        <a href="close-to-guangyu.html">企业荣誉</a>
+                        <a href="close-to-guangyu.html">企业文化</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)">新闻中心</a>
+                    <div class="dropdown_menu">
+                        <a href="news.html">集团新闻</a>
+                        <a href="news-detail.html">行业新闻</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)">
+                        集团产业
+                    </a>
+                    <div class="dropdown_menu">
+                        <a href="guangyu-realestate.html">地产开发</a>
+                        <a href="guangyu-construction.html">建筑施工</a>
+                        <a href="guangyu-hotel.html">酒店服务</a>
+                        <a href="guangyu-property.html">物业服务</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="connect-us.html">联系我们</a>
+                </li>
+            </ul>
+        </div>
+        <!--轮播图-->
+        <div id="myCarousel" class="carousel slide banner-location" data-ride="carousel" data-interval="2000">
+            <!-- 轮播（Carousel）项目 -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="dist/img/8光宇建设/banner.jpg"/>
+                    <div class="item-div ph_item">
+                        <h1>建筑施工</h1>
+                        <div class="item-div-border"></div>
+                        <div class="item-div-p">
+                            <p>Guangyu&nbsp;Construction</p>
+                            <p style="font-size: 22px">追求卓越&nbsp;铸就精品</p>
+                            <p style="font-size: 17px;width: 600px">
+                                具有房屋建筑工程施工总承包壹级、建筑装修装饰工程专业承包壹级、市政公用工程施工总承包贰级等资质。携手融创、中建、中铁、中化、泽京等多家知名企业，累计完成建筑施工面积一千五百万平方米，并多次荣获重庆市优质工程奖。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="introduction-lan">
+    <a id="all">全部</a>
+    <a id="mingjian">民建</a>
+    <a id="gongye">工业</a>
+    <a id="zhuangsi">装饰</a>
+    <a id="shizheng">市政</a>
+</div>
+<div id="one" style="display: block">
+    <div class="base-template">
+        <div class="brief color-base" style="padding-top: 50px">
+            <div class="industry">
+                <img class="pic" src="" data-original="dist/img/8光宇建设/融创嘉德庄园.png"/>
+                <a href="architecture-zhuangyuan.html">融创·嘉德庄园</a>
+            </div>
+            <div class="industry">
+                <img class="pic" src="" data-original="dist/img/8光宇建设/融创启洋二期.png"/>
+                <a href="architecture-qiyangerqi.html">融创·启洋二期</a>
+            </div>
+            <div class="industry">
+                <img class="pic" src="" data-original="dist/img/8光宇建设/融创.嘉德领馆.png"/>
+                <a href="architecture-lingguan.html">融创·嘉德领馆</a>
+            </div>
+            <div class="industry">
+                <img class="pic" src="" data-original="dist/img/8光宇建设/泽京香格里拉花园.png"/>
+                <a href="architecture-xianggelila.html">泽京·香格里拉花园</a>
+            </div>
+            <div class="industry">
+                <img class="pic" src="" data-original="dist/img/8光宇建设/融创悦来.png"/>
+                <a href="architecture-ruilai.html">融创·悦来</a>
+            </div>
+            <div class="industry">
+                <img class="pic" src="" data-original="dist/img/8光宇建设/融创江南融府.jpg"/>
+                <a href="architecture-jianglan.html">融创·江南融府</a>
+            </div>
+            <div class="industry">
+                <img class="pic" src="" data-original="dist/img/8光宇建设/融创欧麓花园城依云郡.png"/>
+                <a href="architecture-oluhuayuan.html">融创·欧麓花园城依云郡</a>
+            </div>
+            <div class="industry">
+                <img class="pic" src="" data-original="dist/img/8光宇建设/融创滨江一号二期.jpg"/>
+                <a href="architecture-yihaoerqi.html">融创·滨江一号二期</a>
+            </div>
+            <div class="industry">
+                <img class="pic" src="" data-original="dist/img/8光宇建设/融创启洋二期.png"/>
+                <a href="architecture-chuanfengshili.html">融创·春风十里</a>
+            </div>
+            <div class="industry">
+                <img class="pic" src="" data-original="dist/img/8光宇建设/融创海阔天空.png"/>
+                <a href="architecture-haikuotiankong.html">融创·海阔天空</a>
+            </div>
+            <div class="industry">
+                <img class="pic" src="" data-original="dist/img/8光宇建设/融创中央公园.png"/>
+                <a href="architecture-gongyuan.html">融创·中央公园</a>
+            </div>
+            <div class="industry">
+                <img class="pic" src="" data-original="dist/img/8光宇建设/中化七建大楼.png"/>
+                <a href="architecture-qijian.html">中化·七建综合大楼</a>
+            </div>
+            <div class="industry">
+                <img class="pic" src="" data-original="dist/img/8光宇建设/融创伊顿濠庭.png"/>
+                <a href="architecture-yidunhaoting.html">融创·伊顿濠庭</a>
+            </div>
+            <div class="industry">
+                <img class="pic" src="" data-original="dist/img/8光宇建设/融创欧麓花园城都铎庄园.png"/>
+                <a href="architecture-duzhe.html">融创·欧麓花园城都铎庄园</a>
+            </div>
+            <div class="industry">
+                <img class="pic" src="" data-original="dist/img/8光宇建设/融创欧麓花园城爱丽舍庄园.jpg"/>
+                <a href="architecture-ailise.html">融创·欧麓花园城爱丽舍庄园</a>
+            </div>
+            <div class="industry">
+                <img class="pic" src="" data-original="dist/img/8光宇建设/长寿巴斯夫.png"/>
+                <a href="#">长寿·巴斯夫</a>
+            </div>
+            <div class="industry">
+                <img class="pic" src="" data-original="dist/img/8光宇建设/康桥融府.JPG"/>
+                <a href="architecture-kangqiao.html">康桥·融府</a>
+            </div>
+            <div class="industry">
+                <img class="pic" src="" data-original="dist/img/8光宇建设/欧瑞锦江.png"/>
+                <a href="architecture-ourui.html">欧瑞锦江大酒店</a>
+            </div>
+            <div class="industry">
+                <img class="pic" src="" data-original="dist/img/8光宇建设/拓邦·意园.JPG"/>
+                <a href="architecture-tuobang.html">拓邦·意园</a>
+            </div>
+            <div class="industry">
+                <img class="pic" src="" data-original="dist/img/8光宇建设/光宇国际.png"/>
+                <a href="guangyu-hotel-daisi.html">光宇国际大厦装饰工程</a>
+            </div>
+            <div class="industry">
+                <img class="pic" src="" data-original="dist/img/8光宇建设/光宇尚滨国际.png"/>
+                <a href="guangyu-hotel-shangbin.html">光宇尚滨国际装饰工程</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="two"  style="display: none">
+    <div class="base-template">
+        <div class="brief color-base" style="padding-top: 50px">
+            <div class="industry">
+                <img class="pic" src="" data-original="dist/img/8光宇建设/融创.嘉德领馆.png"/>
+                <a href="architecture-lingguan.html">融创·嘉德领馆</a>
+            </div>
+            <div class="industry">
+                <img class="pic" src="" data-original="dist/img/8光宇建设/融创中央公园.png"/>
+                <a href="architecture-gongyuan.html">融创·中央公园</a>
+            </div>
+            <div class="industry">
+                <img class="pic" src="" data-original="dist/img/8光宇建设/融创伊顿濠庭.png"/>
+                <a href="architecture-yidunhaoting.html">融创·伊顿濠庭</a>
+            </div>
+            <div class="industry">
+                <img class="pic" src="" data-original="dist/img/8光宇建设/融创欧麓花园城依云郡.png"/>
+                <a href="architecture-oluhuayuan.html">融创·欧麓花园城依云郡</a>
+            </div>
+            <div class="industry">
+                <img class="pic" src="" data-original="dist/img/8光宇建设/融创欧麓花园城爱丽舍庄园.jpg"/>
+                <a href="architecture-ailise.html">融创·欧麓花园城爱丽舍庄园</a>
+            </div>
+            <div class="industry">
+                <img class="pic" src="" data-original="dist/img/8光宇建设/融创欧麓花园城都铎庄园.png"/>
+                <a href="architecture-duzhe.html">融创·欧麓花园城都铎庄园</a>
+            </div>
+
+            <div class="industry">
+                <img class="pic" src="" data-original="dist/img/8光宇建设/融创启洋二期.png"/>
+                <a href="architecture-qiyangerqi.html">融创·启洋二期</a>
+            </div>
+            <div class="industry">
+                <img class="pic" src="" data-original="dist/img/8光宇建设/融创启洋二期.png"/>
+                <a href="architecture-chuanfengshili.html">融创·春风十里</a>
+            </div>
+            <div class="industry">
+                <img class="pic" src="" data-original="dist/img/8光宇建设/融创悦来.png"/>
+                <a href="architecture-ruilai.html">融创·悦来</a>
+            </div>
+            <div class="industry">
+                <img class="pic" src="" data-original="dist/img/8光宇建设/融创江南融府.jpg"/>
+                <a href="architecture-jianglan.html">融创·江南融府</a>
+            </div>
+            <div class="industry">
+                <img class="pic" src="" data-original="dist/img/8光宇建设/融创海阔天空.png"/>
+                <a href="architecture-haikuotiankong.html">融创·海阔天空</a>
+            </div>
+            <div class="industry">
+                <img class="pic" src="" data-original="dist/img/8光宇建设/融创滨江一号二期.jpg"/>
+                <a href="architecture-yihaoerqi.html">融创·滨江一号二期</a>
+            </div>
+            <div class="industry">
+                <img class="pic" src="" data-original="dist/img/8光宇建设/康桥融府.JPG"/>
+                <a href="architecture-kangqiao.html">康桥·融府</a>
+            </div>
+            <div class="industry">
+                <img class="pic" src="" data-original="dist/img/8光宇建设/拓邦·意园.JPG"/>
+                <a href="architecture-tuobang.html">拓邦·意园</a>
+            </div>
+            <div class="industry">
+                <img class="pic" src="" data-original="dist/img/8光宇建设/泽京香格里拉花园.png"/>
+                <a href="architecture-xianggelila.html">泽京·香格里拉花园</a>
+            </div>
+            <div class="base-template">
+                <div class="brief color-base" style="padding-top: 50px">
+                    <div class="industry">
+                        <img class="pic" src="dist/img/8光宇建设/中化七建大楼.png"/>
+                        <a href="architecture-qijian.html">中化·七建综合大楼</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="three"  style="display: none">
+    <div class="base-template">
+        <div class="brief color-base" style="padding-top: 50px">
+            <div class="industry">
+                <img class="pic" src="dist/img/8光宇建设/长寿巴斯夫.png"/>
+                <a href="">长寿·巴斯夫</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="four"  style="display: none">
+    <div class="base-template">
+        <div class="brief color-base" style="padding-top: 50px">
+            <div class="industry">
+                <img class="pic" src="dist/img/8光宇建设/光宇国际.png"/>
+                <a href="guangyu-hotel-daisi.html">光宇国际大厦装饰工程</a>
+            </div>
+            <div class="industry">
+                <img class="pic" src="dist/img/8光宇建设/光宇尚滨国际.png"/>
+                <a href="guangyu-hotel-shangbin.html">光宇尚滨国际装饰工程</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="five"  style="display: none">
+    <div class="base-template">
+        <div class="brief color-base" style="padding-top: 50px">
+            敬请期待........
+        </div>
+    </div>
+</div>
+<div class="copyright">
+    <div class="template-background">
+        <div class="copyright-link">
+            <div class="head-nav-style">
+                <a href="index.html">
+                    <img class="pic" src="dist/img/1.首页/底部logo.png"/>
+                </a>
+            </div>
+            <!--底部导航栏-->
+            <div class="copyright-link-item">
+                <h3>走进光宇</h3>
+                <a href="close-to-guangyu.html">集团介绍</a>
+                <a href="close-to-guangyu.html">发展历程</a>
+                <a href="close-to-guangyu.html">企业荣誉</a>
+                <a href="close-to-guangyu.html">企业文化</a>
+            </div>
+            <div class="copyright-link-item">
+                <h3>新闻中心</h3>
+                <a href="news.html">集团新闻</a>
+                <a href="news-detail.html">行业新闻</a>
+            </div>
+            <div class="copyright-link-item">
+                <h3>集团产业</h3>
+                <a href="guangyu-realestate.html">地产开发</a>
+                <a href="guangyu-construction.html">建筑施工</a>
+                <a href="guangyu-hotel.html">酒店服务</a>
+                <a href="guangyu-property.html">物业服务</a>
+            </div>
+            <div class="copyright-link-item">
+                <h3>联系我们</h3>
+                <a href="connect-us.html">联系我们</a>
+            </div>
+        </div>
+        <p class="font color-white">版权所有©2019&nbsp;重庆光宇建设开发集团&nbsp;渝ICP备0000号</p>
+    </div>
+</div>
+<script language="JavaScript">
+    $(function () {
+        $("img.pic").lazyload({
+            placeholder: "",
+            effect: "fadeIn"
+        });
+    });
+    // 鼠标点击事件
+    $(`#all`).on("click", function () {
+        $("#mingjian").css("color", "#333");
+        $("#gongye").css("color", "#333");
+        $("#zhuangsi").css("color", "#333");
+        $("#shizheng").css("color", "#333");
+        $("#all").css("color", "blue");
+        $("#two").css("display", "none");
+        $("#three").css("display", "none");
+        $("#four").css("display", "none");
+        $("#five").css("display", "none");
+        $("#one").css("display", "block");
+    });
+    $(`#mingjian`).on("click", function () {
+        $("#all").css("color", "#333");
+        $("#gongye").css("color", "#333");
+        $("#zhuangsi").css("color", "#333");
+        $("#shizheng").css("color", "#333");
+        $("#mingjian").css("color", "blue");
+        $("#one").css("display", "none");
+        $("#four").css("display", "none");
+        $("#three").css("display", "none");
+        $("#five").css("display", "none");
+        $("#two").css("display", "block");
+    });
+    $(`#gongye`).on("click", function () {
+        $("#all").css("color", "#333");
+        $("#mingjian").css("color", "#333");
+        $("#zhuangsi").css("color", "#333");
+        $("#shizheng").css("color", "#333");
+        $("#gongye").css("color", "blue");
+        $("#one").css("display", "none");
+        $("#two").css("display", "none");
+        $("#four").css("display", "none");
+        $("#five").css("display", "none");
+        $("#three").css("display", "block");
+    });
+    $(`#zhuangsi`).on("click", function () {
+        $("#all").css("color", "#333");
+        $("#mingjian").css("color", "#333");
+        $("#gongye").css("color", "#333");
+        $("#shizheng").css("color", "#333");
+        $("#zhuangsi").css("color", "blue");
+        $("#one").css("display", "none");
+        $("#two").css("display", "none");
+        $("#three").css("display", "none");
+        $("#five").css("display", "none");
+        $("#four").css("display", "block");
+    });
+    $(`#shizheng`).on("click", function () {
+        $("#all").css("color", "#333");
+        $("#mingjian").css("color", "#333");
+        $("#zhuangsi").css("color", "#333");
+        $("#gongye").css("color", "#333");
+        $("#shizheng").css("color", "blue");
+        $("#one").css("display", "none");
+        $("#two").css("display", "none");
+        $("#three").css("display", "none");
+        $("#four").css("display", "none");
+        $("#five").css("display", "block");
+    });
+</script>
+<script src="dist/js/jquery.lazyload.js"></script>
+<script src="dist/js/public.js"></script>
+<script src="dist/js/common.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+<script src="dist/bootstarp/js/bootstrap.min.js"></script>
+</body>
+</html>

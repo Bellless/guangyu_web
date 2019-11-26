@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>走进光宇</title>
+    <link rel="stylesheet" href="dist/bootstarp/css/bootstrap.min.css">
+    <link rel="stylesheet" href="dist/css/public.css">
+    <link rel="stylesheet" href="dist/css/common.css">
+    <link rel="stylesheet" href="dist/css/media.css">
+    <link rel="stylesheet" href="dist/css/mode/head.css">
+    <link rel="stylesheet" href="dist/css/mode/reset.css">
+    <script src="dist/js/jquery-3.1.1.min.js"></script>
+    <script src="dist/js/jquery.lazyload.js"></script>
+</head>
+<body>
+<div class="template-background-color">
+    <div class="template-background" style="width: 100%">
+        <!--pc端导航-->
+        <header class="header">
+            <div class="container clearfix">
+                <div class="fl left">
+                    <a href="index.html">
+                        <img src="dist/img/1.首页/icon_LOGO.png"/>
+                    </a>
+                </div>
+                <div class="fr nav">
+                    <ul class="navbar_nav" data-in="fadeInDown" data-out="fadeOutUp">
+                        <li class="active">
+                            <a href="index.html">首页</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="close-to-guangyu.html">
+                                走进光宇
+                            </a>
+                            <div class="dropdown_menu">
+                                <a href="close-to-guangyu.html">集团介绍</a>
+                                <a href="javascript:void(0);" onclick="two_method()">发展历程</a>
+                                <a href="javascript:void(0);" onclick="three_method()">企业荣誉</a>
+                                <a href="javascript:void(0);" onclick="four_method()">企业文化</a>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a href="news.html">新闻中心</a>
+                            <div class="dropdown_menu">
+                                <a href="news.html">集团新闻</a>
+                                <a href="news-detail.html">行业新闻</a>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a href="guangyu-construction.html">
+                                集团产业
+                            </a>
+                            <div class="dropdown_menu">
+                                <a href="guangyu-realestate.html">地产开发</a>
+                                <a href="guangyu-construction.html">建筑施工</a>
+                                <a href="guangyu-hotel.html">酒店服务</a>
+                                <a href="guangyu-property.html">物业服务</a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="connect-us.html">联系我们</a>
+                        </li>
+                        <label style="margin:5px 10px 0 20px">
+                            <select>
+                                <option>EN</option>
+                                <option>Englis</option>
+                                <option>Austural</option>
+                            </select>
+                        </label>
+                        <a>
+                            <img src="dist/img/1.首页/icn-搜索.png" alt=""/>
+                        </a>
+                    </ul>
+                </div>
+                <a href="javascript:void(0)" id="navToggle">
+                    <span></span>
+                </a>
+            </div>
+        </header>
+        <!--移动端导航-->
+        <div class="m_nav">
+            <div class="top clearfix">
+                <img src="dist/css/mode/img/closed.png" class="closed"/>
+            </div>
+            <div class="logo">
+                <img src="dist/img/1.首页/icon_LOGO.png"/>
+            </div>
+            <ul class="ul" data-in="fadeInDown" data-out="fadeOutUp">
+                <li class="active">
+                    <a href="index.html">首页</a>
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)">
+                        走进光宇
+                    </a>
+                    <div class="dropdown_menu">
+                        <a href="close-to-guangyu.html">集团介绍</a>
+                        <a href="javascript:void(0);" onclick="two_method()">发展历程</a>
+                        <a href="javascript:void(0);" onclick="three_method()">企业荣誉</a>
+                        <a href="javascript:void(0);" onclick="four_method()">企业文化</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)">新闻中心</a>
+                    <div class="dropdown_menu">
+                        <a href="news.html">集团新闻</a>
+                        <a href="news-detail.html">行业新闻</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)">
+                        集团产业
+                    </a>
+                    <div class="dropdown_menu">
+                        <a href="guangyu-realestate.html">地产开发</a>
+                        <a href="guangyu-construction.html">建筑施工</a>
+                        <a href="guangyu-hotel.html">酒店服务</a>
+                        <a href="guangyu-property.html">物业服务</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="connect-us.html">联系我们</a>
+                </li>
+            </ul>
+        </div>
+        <!--轮播图-->
+        <div id="myCarousel" class="carousel slide banner-location" data-ride="carousel" data-interval="2000">
+            <!-- 轮播（Carousel）项目 -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img class="pic" src="dist/img/2.走进光宇-1集团介绍/img-banner.jpg"/>
+                    <div class="item-div font-position" style="">
+                        <h1>走进光宇</h1>
+                        <div class="item-div-p" style="padding-top: 0">
+                            <p>Walking&nbsp;into&nbsp;Guangyu</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--内容区-->
+<div class="introduction-lan">
+    <a id="one-introduce">集团介绍</a>
+    <a id="two-development">发展历程</a>
+    <a id="three-honer">企业荣誉</a>
+    <a id="four-culture">企业文化</a>
+</div>
+<div id="one" style="display: block">
+    <div class="fifty-icon">
+        <img class="pic" src="" data-original="dist/img/2.走进光宇-1集团介绍/img_标签图.png"/>
+    </div>
+    <div class="base-template">
+        <div class="brief">
+            <div class="about">
+                <h2>集团简介</h2>
+                <p>ABOUT US</p>
+            </div>
+            <div class="about-div">
+                <div class="brief-pic-one base-margin">
+                    <img class="pic" src="" data-original="dist/img/2.走进光宇-1集团介绍/img_简介图1.png" alt=""/>
+                    <div class="brief-pic-one-p">
+                        <p class="text_index">
+                            重庆光宇建设开发（集团）有限公司（以下简称光宇集团）创建于1996年，秉承“发展企业、服务社会、造福员工”的企业宗旨，经过20多年的发展已成为集房地产开发、建筑施工和酒店投资经营为一体的大型企业集团。在主城区黄金地段内拥有两栋近8万m2的高档商务写字楼，两家星级大酒店，以及辖设建筑施工、酒店管理、物业管理等多家子（分）公司。具有房地产开发贰级、房屋建筑工程施工总承包壹级、建筑装修装饰工程专业承包壹级、市政公用工程施工总承包贰级等资质，拥有各类中高级职称人员87人、国家注册建造师38人，各类持证人员856人。
+                        </p>
+                    </div>
+                </div>
+                <div class="brief-pic-two base-margin">
+                    <img class="pic" src="" data-original="dist/img/2.走进光宇-1集团介绍/img_简介图2.png" alt=""/>
+                    <div class="brief-pic-two-p">
+                        <div class="brief-pic-two-border"></div>
+                        <h2>&nbsp;&nbsp;诚信筑基·创建经典 </h2>
+                        <p class="text_index">
+                            光宇集团先后在重庆开发建设“光宇国际”、“光宇尚滨国际”、“光宇·维多利亚”、“光宇·阳光地中海”、“光宇·阳光海岸”、“光宇大厦”、“光宇·锦鑫大厦”、“凤岭街光宇小区”、“林庄锦园”、“漫山云筑”等20余个楼盘，并在吉林省松原市开发建设“光宇盛世华城”等住宅小区，累计开发面积近500万m²。是重庆市房地产商会副会长单位、吉林省川渝商会常务副会长单位。光宇集团携手融创、中建、中铁、中化、泽京等知名企业，建立长期战略合作关系，已累计施工面积1500万m²左右，并多次荣获重庆市优质工程奖。
+                        </p>
+                    </div>
+                    <div class="brief-pic-two-p">
+                        <div class="brief-pic-two-border"></div>
+                        <h2>&nbsp;&nbsp;产品第一、质量为本、服务为先、安全为首</h2>
+                        <p class="text_index">
+                            光宇集团以自强不息、宁静致远的企业精神，及诚信、创新、责任、共赢的经营理念，在不断开拓中得到市场的认可，并先后荣获全国守合同重信用企业、全国诚信守法企业、全国和谐人居优秀规划设计奖、重庆城市建设十佳项目等荣誉，连续多年入选重庆房地产开发五十强企业、重庆市民营企业五十强、重庆市建筑行业先进企业、农行AAA级信用客户。</p>
+                    </div>
+                </div>
+                <div class="brief-pic-three-p base-margin">
+                    <div class="brief-pic-three-border"></div>
+                    <h2>&nbsp;&nbsp;扶危救困·关爱社会</h2>
+                    <p class="text_index">
+                        光宇集团在为社会提供产品和服务的同时，也默默地承担着相应的社会责任。多年来不断开展帮扶敬老院，资助社会困难学生，灾区捐款捐物等活动。光宇集团为社会捐助已累计逾千万，以实际行动践行关爱社会的诺言。</p>
+                </div>
+                <div class="brief-pic-three-p base-margin">
+                    <div class="brief-pic-three-border"></div>
+                    <h2>&nbsp;&nbsp;高瞻远瞩·践行使命</h2>
+                    <p class="text_index">
+                        大业愿景，一幅志存高远、壮阔无疆的魅力蓝图！大气天成，一种勇担大任，打造卓越品牌的气魄！站在新的发展点上，光宇面临着前所未有的挑战，也蕴藏着史无前例的市场机遇。光宇以锻造辉煌和梦想的高瞻远瞩之魄力，引领着一个城市和一个时代的腾飞，致力为这个社会共同铸就城市的梦想与未来！</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="two" style="display: none">
+    <div class="fifty-icon">
+        <img src="dist/img/3走进光宇-2发展历程/img_风雨同舟.png" height="300" width="1920"/>
+    </div>
+    <div class="base-template">
+        <div class="brief">
+            <div class="development">
+                <div class="brief-pic-two-border" style="display: inline-block"></div>
+                <h3>光宇历程</h3>
+                <img src="dist/img/3走进光宇-2发展历程/icon_成长历程.png"/>
+            </div>
+            <div class="development-div">
+                <div class="development-border"></div>
+                <div class="development-time">
+                    <a>2018</a>
+                    <div class="development-icon"></div>
+                    <p>建设施工业绩突破20亿元</p>
+                </div>
+            </div>
+            <div class="development-div">
+                <div class="development-border"></div>
+                <div class="development-time">
+                    <a>2017</a>
+                    <div class="development-icon"></div>
+                    <p>昆明事业部成立，春风十里项目启动</p>
+                </div>
+            </div>
+            <div class="development-div">
+                <div class="development-border"></div>
+                <div class="development-time">
+                    <a>2016</a>
+                    <div class="development-icon"></div>
+                    <p>贵州事业部成立，骏逸河畔项目启动</p>
+                </div>
+            </div>
+            <div class="development-div">
+                <div class="development-border"></div>
+                <div class="development-time">
+                    <a>2014</a>
+                    <div class="development-icon"></div>
+                    <p>豪维特(中国)酒店管理有限公司成立</p>
+                </div>
+            </div>
+            <div class="development-div">
+                <div class="development-border"></div>
+                <div class="development-time">
+                    <a>2013</a>
+                    <div class="development-icon"></div>
+                    <p class="development-phone">改组成立重庆光宇建设开发（集团）有限公司</p>
+                </div>
+            </div>
+            <div class="development-div">
+                <div class="development-border"></div>
+                <div class="development-time">
+                    <a>2013</a>
+                    <div class="development-icon"></div>
+                    <p>重庆宇晟物业管理有限公司成立</p>
+                </div>
+            </div>
+            <div class="development-div">
+                <div class="development-border"></div>
+                <div class="development-time">
+                    <a>2012</a>
+                    <div class="development-icon"></div>
+                    <p>成都事业部成立，七化建设项目启动</p>
+                </div>
+            </div>
+            <div class="development-div">
+                <div class="development-border"></div>
+                <div class="development-time">
+                    <a>2007</a>
+                    <div class="development-icon"></div>
+                    <!--当奖项名称过长时添加development-phone类名-->
+                    <p class="development-phone">光宇·盛世华城荣获建设部、文化部“全国和谐人居优秀规划设计奖”</p>
+                </div>
+            </div>
+            <div class="development-div">
+                <div class="development-border"></div>
+                <div class="development-time">
+                    <a>2007</a>
+                    <div class="development-icon"></div>
+                    <p class="development-phone">国家工商总局授予“全国守合同重信用单位”</p>
+                </div>
+            </div>
+            <div class="development-div">
+                <div class="development-border"></div>
+                <div class="development-time">
+                    <a>2006</a>
+                    <div class="development-icon"></div>
+                    <p class="development-phone">东北吉林事业部成立，盛世华城项目启动</p>
+                </div>
+            </div>
+            <div class="development-div">
+                <div class="development-border"></div>
+                <div class="development-time">
+                    <a>2001</a>
+                    <div class="development-icon"></div>
+                    <p>通过ISO体系认证</p>
+                </div>
+            </div>
+            <div class="development-div">
+                <div class="development-border"></div>
+                <div class="development-time">
+                    <a>1996</a>
+                    <div class="development-icon"></div>
+                    <p>重庆光宇建设开发有限公司成立</p>
+                </div>
+            </div>
+            <div class="development-border-end"></div>
+        </div>
+    </div>
+</div>
+<div id="three" style="display: none">
+    <div class="base-template">
+        <div class="brief" style="padding-bottom: 0">
+            <div class="other-bck">
+                <div class="about">
+                    <h2>企业荣誉</h2>
+                    <p>Corporate honor</p>
+                </div>
+                <div style="margin-bottom: 10px">
+                    <div class="honer">
+                        <div class="honer-div">
+                            <div class="p-div">
+                                <img class="pic" src="" data-original="dist/img/4走进光宇-3企业荣誉/2007-07.jpg"/></div>
+                        </div>
+                    </div>
+                    <div class="honer">
+                        <div class="honer-div">
+                            <div class="p-div">
+                                <img class="pic" src="" data-original="dist/img/4走进光宇-3企业荣誉/2007-09.jpg"/></div>
+                        </div>
+                    </div>
+                    <div class="honer">
+                        <div class="honer-div">
+                            <div class="p-div">
+                                <img class="pic" src="" data-original="dist/img/4走进光宇-3企业荣誉/2008-10.jpg"/></div>
+                        </div>
+                    </div>
+                </div>
+                <div style="margin-bottom: 10px">
+                    <div class="honer">
+                        <div class="honer-div">
+                            <div class="p-div">
+                                <img class="pic" src="" data-original="dist/img/4走进光宇-3企业荣誉/2008-01.jpg"/></div>
+                        </div>
+                    </div>
+                    <div class="honer">
+                        <div class="honer-div">
+                            <div class="p-div">
+                                <img class="pic" src="" data-original="dist/img/4走进光宇-3企业荣誉/2009-03.jpg"/></div>
+                        </div>
+                    </div>
+                    <div class="honer">
+                        <div class="honer-div">
+                            <div class="p-div">
+                                <img class="pic" src="" data-original="dist/img/4走进光宇-3企业荣誉/2009-2010.jpg"/></div>
+                        </div>
+                    </div>
+                </div>
+                <div style="margin-bottom: 10px">
+                    <div class="honer">
+                        <div class="honer-div">
+                            <div class="p-div">
+                                <img class="pic" src="" data-original="dist/img/4走进光宇-3企业荣誉/2010-01.jpg"/></div>
+                        </div>
+                    </div>
+                    <div class="honer">
+                        <div class="honer-div">
+                            <div class="p-div">
+                                <img class="pic" src="" data-original="dist/img/4走进光宇-3企业荣誉/2012-02.jpg"/></div>
+                        </div>
+                    </div>
+                    <div class="honer">
+                        <div class="honer-div">
+                            <div class="p-div">
+                                <img class="pic" src="" data-original="dist/img/4走进光宇-3企业荣誉/2005-04.jpg"/></div>
+                        </div>
+                    </div>
+                </div>
+                <div style="margin-bottom: 10px">
+                    <div class="honer">
+                        <div class="honer-div">
+                            <div class="p-div">
+                                <img class="pic" src="" data-original="dist/img/4走进光宇-3企业荣誉/2012-07-11.jpg"/></div>
+                        </div>
+                    </div>
+                    <div class="honer">
+                        <div class="honer-div">
+                            <div class="p-div">
+                                <img class="pic" src="" data-original="dist/img/4走进光宇-3企业荣誉/2013-03.jpg"/></div>
+                        </div>
+                    </div>
+                    <div class="honer">
+                        <div class="honer-div">
+                            <div class="p-div">
+                                <img class="pic" src="" data-original="dist/img/4走进光宇-3企业荣誉/2013-08.jpg"/></div>
+                        </div>
+                    </div>
+                </div>
+                <div style="margin-bottom: 10px">
+                    <div class="honer">
+                        <div class="honer-div">
+                            <div class="p-div">
+                                <img class="pic" src="" data-original="dist/img/4走进光宇-3企业荣誉/2010-02 (2).jpg"/></div>
+                        </div>
+                    </div>
+                    <div class="honer">
+                        <div class="honer-div">
+                            <div class="p-div">
+                                <img class="pic" src="" data-original="dist/img/4走进光宇-3企业荣誉/2010-03.jpg"/></div>
+                        </div>
+                    </div>
+                    <div class="honer">
+                        <div class="honer-div">
+                            <div class="p-div">
+                                <img class="pic" src="" data-original="dist/img/4走进光宇-3企业荣誉/2009-06.jpg"/></div>
+                        </div>
+                    </div>
+                </div>
+                <div style="margin-bottom: 10px">
+                    <div class="honer">
+                        <div class="honer-div">
+                            <div class="p-div">
+                                <img class="pic" src="" data-original="dist/img/4走进光宇-3企业荣誉/2012-02 (2).jpg"/></div>
+                        </div>
+                    </div>
+                    <div class="honer">
+                        <div class="honer-div">
+                            <div class="p-div">
+                                <img class="pic" src="" data-original="dist/img/4走进光宇-3企业荣誉/2012-05.jpg"/></div>
+                        </div>
+                    </div>
+                    <div class="honer">
+                        <div class="honer-div">
+                            <div class="p-div">
+                                <img class="pic rate-img" src="" data-original="dist/img/4走进光宇-3企业荣誉/2008-12.jpg" /></div>
+                        </div>
+                    </div>
+                </div>
+                <div style="margin-bottom: 10px">
+                    <div class="honer">
+                        <div class="honer-div">
+                            <div class="p-div">
+                                <img class="pic" src="" data-original="dist/img/4走进光宇-3企业荣誉/2012-05-29.jpg"/></div>
+                        </div>
+                    </div>
+                    <div class="honer">
+                        <div class="honer-div">
+                            <div class="p-div">
+                                <img class="pic" src="" data-original="dist/img/4走进光宇-3企业荣誉/2012-07.jpg"/></div>
+                        </div>
+                    </div>
+                    <div class="honer">
+                        <div class="honer-div">
+                            <div class="p-div">
+                                <img class="pic" src="" data-original="dist/img/4走进光宇-3企业荣誉/2012-07 (2).jpg"/></div>
+                        </div>
+                    </div>
+                </div>
+                <div style="margin-bottom: 10px">
+                    <div class="honer">
+                        <div class="honer-div">
+                            <div class="p-div">
+                                <img class="pic" src="" data-original="dist/img/4走进光宇-3企业荣誉/2007-04.jpg"/></div>
+                        </div>
+                    </div>
+                    <div class="honer">
+                        <div class="honer-div">
+                            <div class="p-div">
+                                <img class="pic" src="" data-original="dist/img/4走进光宇-3企业荣誉/2009-04.jpg"/></div>
+                        </div>
+                    </div>
+                    <div class="honer">
+                        <div class="honer-div">
+                            <div class="p-div">
+                                <img class="pic" src="" data-original="dist/img/4走进光宇-3企业荣誉/2008-08.jpg"/></div>
+                        </div>
+                    </div>
+                </div>
+                <div style="margin-bottom: 10px">
+                    <div class="honer">
+                        <div class="honer-div">
+                            <div class="p-div">
+                                <img class="pic" src="" data-original="dist/img/4走进光宇-3企业荣誉/2009-04 (2).jpg"/></div>
+                        </div>
+                    </div>
+                    <div class="honer">
+                        <div class="honer-div">
+                            <div class="p-div">
+                                <img class="pic" src="" data-original="dist/img/4走进光宇-3企业荣誉/2006-11.jpg"/></div>
+                        </div>
+                    </div>
+                    <div class="honer">
+                        <div class="honer-div">
+                            <div class="p-div">
+                                <img class="pic" src="" data-original="dist/img/4走进光宇-3企业荣誉/2010-03 (2).jpg"/></div>
+                        </div>
+                    </div>
+                </div>
+                <div style="margin-bottom: 10px">
+                    <div class="honer">
+                        <div class="honer-div">
+                            <div class="p-div">
+                                <img class="pic" src="" data-original="dist/img/4走进光宇-3企业荣誉/2010-01-28.jpg"/></div>
+                        </div>
+                    </div>
+                    <div class="honer">
+                        <div class="honer-div">
+                            <div class="p-div">
+                                <img class="pic" src="" data-original="dist/img/4走进光宇-3企业荣誉/2010-02.jpg"/></div>
+                        </div>
+                    </div>
+                    <div class="honer">
+                        <div class="honer-div">
+                            <div class="p-div">
+                                <img class="pic" src="" data-original="dist/img/4走进光宇-3企业荣誉/2008-06.jpg"/></div>
+                        </div>
+                    </div>
+                </div>
+                <div style="margin-bottom: 10px">
+                    <div class="honer">
+                        <div class="honer-div">
+                            <div class="p-div">
+                                <img class="pic" src="" data-original="dist/img/4走进光宇-3企业荣誉/2010-08.jpg"/></div>
+                        </div>
+                    </div>
+                    <div class="honer">
+                        <div class="honer-div">
+                            <div class="p-div">
+                                <img class="pic" src="" data-original="dist/img/4走进光宇-3企业荣誉/2011.jpg"/></div>
+                        </div>
+                    </div>
+                    <div class="honer">
+                        <div class="honer-div">
+                            <div class="p-div">
+                                <img class="pic" src="" data-original="dist/img/4走进光宇-3企业荣誉/2011-04.jpg"/></div>
+                        </div>
+                    </div>
+                </div>
+                <div style="margin-bottom: 10px">
+                    <div class="honer">
+                        <div class="honer-div">
+                            <div class="p-div">
+                                <img class="pic" src="" data-original="dist/img/4走进光宇-3企业荣誉/2011-04 (2).jpg"/></div>
+                        </div>
+                    </div>
+                    <div class="honer">
+                        <div class="honer-div">
+                            <div class="p-div">
+                                <img class="pic" src="" data-original="dist/img/4走进光宇-3企业荣誉/2011-04 (3).jpg"/></div>
+                        </div>
+                    </div>
+                    <div class="honer">
+                        <div class="honer-div">
+                            <div class="p-div">
+                                <img class="pic" src="" data-original="dist/img/4走进光宇-3企业荣誉/2011-07.jpg"/></div>
+                        </div>
+                    </div>
+                </div>
+                <div style="margin-bottom: 10px">
+                    <div class="honer">
+                        <div class="honer-div">
+                            <div class="p-div">
+                                <img class="pic" src="" data-original="dist/img/4走进光宇-3企业荣誉/上榜企业.jpg"/></div>
+                        </div>
+                    </div>
+                    <div class="honer">
+                        <div class="honer-div">
+                            <div class="p-div">
+                                <img class="pic" src="" data-original="dist/img/4走进光宇-3企业荣誉/会员企业.jpg"/></div>
+                        </div>
+                    </div>
+                    <div class="honer">
+                        <div class="honer-div">
+                            <div class="p-div">
+                                <img class="pic" src="" data-original="dist/img/4走进光宇-3企业荣誉/共产党员示范岗.jpg"/></div>
+                        </div>
+                    </div>
+                </div>
+                <div style="margin-bottom: 10px">
+                    <div class="honer">
+                        <div class="honer-div">
+                            <div class="p-div">
+                                <img class="pic" src="" data-original="dist/img/4走进光宇-3企业荣誉/副会长单位.jpg"/></div>
+                        </div>
+                    </div>
+                    <div class="honer">
+                        <div class="honer-div">
+                            <div class="p-div">
+                                <img class="pic" src="" data-original="dist/img/4走进光宇-3企业荣誉/常务理事.jpg"/></div>
+                        </div>
+                    </div>
+                    <div class="honer">
+                        <div class="honer-div">
+                            <div class="p-div">
+                                <img class="pic" src="" data-original="dist/img/4走进光宇-3企业荣誉/理事单位.jpg"/></div>
+                        </div>
+                    </div>
+                </div>
+                <div style="margin-bottom: 10px">
+                    <div class="honer">
+                        <div class="honer-div">
+                            <div class="p-div">
+                                <img class="pic" src="" data-original="dist/img/4走进光宇-3企业荣誉/阳光地中海.jpg"/></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="four" style="display: none">
+    <div class="base-template">
+        <div class="brief">
+            <div class="about">
+                <h2>企业文化</h2>
+                <p>Corporate culture</p>
+            </div>
+            <!--单独字体模块-->
+            <div class="culture">
+                <div class="brief-pic-two-border" style="height: 31px;transform: translateY(4%)"></div>
+                <h2>&nbsp;&nbsp;企业宗旨 </h2>
+            </div>
+            <div class="culture-div">
+                <h3>发展企业、服务社会、造福员工</h3>
+                <div class="culture-div-p">
+                    <p class="text_index">发展是光宇集团的第一要务。全体光宇人应当始终紧扣发展主题，永葆拼搏进取的精神风貌，推动光宇发展、促进光宇发展， 同时也带动区域经济蓬勃发展。</p>
+                    <p class="text_index">服务社会是光宇集团的最高使命。光宇人通过努力实现产品的价值传递，致力于服务社会发展。</p>
+                    <p class="text_index">造福员工是光宇集团的发展之根本。光宇集团以尊重员工、关爱员工为己任，成就员工梦想，实现企业与员工共同进步。</p>
+                </div>
+            </div>
+            <div style="margin-top: 60px">
+                <div class="culture">
+                    <div class="brief-pic-two-border" style="height: 31px;transform: translateY(4%)"></div>
+                    <h2>&nbsp;&nbsp;企业精神 </h2>
+                </div>
+                <div class="culture-div">
+                    <h3>自强不息、宁静致远</h3>
+                    <div class="culture-div-p">
+                        <p class="text_index">天行健—君子以自强不息！光宇人需要拒绝软弱和懒惰，拒绝停滞和自满，拒绝依赖他人，坐享其成。要有战胜一切、 压倒一切的信心和勇气</p>
+                        <p class="text_index">平稳静怡心态，不为杂念所左右，静思反省，才能实现更远的目标；只有心境平稳沉着、专心致志，才能厚积薄发、 有所作为！</p>
+                    </div>
+                </div>
+            </div>
+            <div style="margin-top: 60px">
+                <div class="culture">
+                    <div class="brief-pic-two-border" style="height: 31px;transform: translateY(4%)"></div>
+                    <h2>&nbsp;&nbsp;企业理念 </h2>
+                </div>
+                <div class="culture-div">
+                    <h3>诚信筑基、创造经典</h3>
+                    <div class="culture-div-p">
+                        <p class="text_index">坚持以诚信筑基，建百年工程，对客户尽力，对住户尽心，对企业尽职，把诚信精神融入了一砖一瓦、一木一石，为当地的 经济发展和现代化建设做出了
+                            贡献，展现了光宇人的良好形象。</p>
+                        <p class="text_index">“玉不琢，不成器”。光宇人要对产品精心打造、精工制作的理念和追求，更是要不断吸收最前沿的技术，创造出新成果。 追求卓越的创造精神、精益
+                            求精的品质精神、用户至上的服务精神。</p>
+                    </div>
+                </div>
+            </div>
+            <div style="margin-top: 60px">
+                <div class="culture">
+                    <div class="brief-pic-two-border" style="height: 31px;transform: translateY(4%)"></div>
+                    <h2>&nbsp;&nbsp;经营理念 </h2>
+                </div>
+                <div class="culture-div">
+                    <h3>诚信、创新、效益、共赢</h3>
+                    <div class="culture-div-p">
+                        <p class="text_index">人无信不立，企无信不强。公司员工要努力履行对公司、对客户、对投资者的责任和承诺，忠实履行自己的岗位职责及上
+                            级交办的事情。我们要讲真话、办实事，杜绝假话、空话、大话，形成事事讲诚信、人人敢担当的良好氛围。</p>
+                        <p class="text_index">光宇人要敢于打破常规，突破现状，敢为人先，敢于挑战未来，谋求新境界的思维定势。</p>
+                        <p class="text_index">效益与规模并重，质量与速度并重，风控与发展并重。 </p>
+                        <p class="text_index">利益共享，分工协作，实现共赢，共同发展！ </p>
+                    </div>
+                </div>
+            </div>
+            <div style="margin-top: 60px">
+                <div class="culture">
+                    <div class="brief-pic-two-border" style="height: 31px;transform: translateY(4%)"></div>
+                    <h2>&nbsp;&nbsp;管理理念 </h2>
+                </div>
+                <div class="culture-div">
+                    <h3>产品第一、质量为本、服务为先、安全为首</h3>
+                    <div class="culture-div-p">
+                        <p class="text_index">产品第一“让光宇集团在众多企业中脱颖而出，立于不败之地并且能飞速发展。”</p>
+                        <p class="text_index">质量是企业的生命，是企业发展长远的根本。</p>
+                        <p class="text_index">树立正确的服务意识，完善服务制度，打造服务形象，随时做到为用户提供最佳服务。</p>
+                        <p class="text_index">光宇集团以对光宇人极端负责任的态度,切实提高思想认识,坚决杜绝麻痹思想和侥幸心理,牢固树立安全责任重于泰山的思
+                            想，对安全工作常抓不懈，时时刻刻把安全工作放在重要位置来抓，一刻也不敢大意和放松。</p>
+                    </div>
+                </div>
+            </div>
+            <div style="margin-top: 60px">
+                <div class="culture">
+                    <div class="brief-pic-two-border" style="height: 31px;transform: translateY(4%)"></div>
+                    <h2>&nbsp;&nbsp;用人原则 </h2>
+                </div>
+                <div class="culture-div">
+                    <h3>德为先、能为本、勤为径、绩为凭</h3>
+                    <div class="culture-div-p">
+                        <p class="text_index">能者上，平者让，庸者下。我们选拔人才重视德才兼备，以德为先。</p>
+                        <p class="text_index">有德有才者破格重用，有德无才者培养使用，有才无德者限制使用，无德无才者坚决不用。</p>
+                        <p class="text_index">坚持以民主公开、竞争择优的选人方法，注重一线，注重实绩。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="copyright">
+    <div class="template-background">
+        <div class="copyright-link">
+            <div class="head-nav-style">
+                <a href="index.html">
+                    <img class="pic" src="dist/img/1.首页/底部logo.png"/>
+                </a>
+            </div>
+            <!--底部导航栏-->
+            <div class="copyright-link-item">
+                <h3>走进光宇</h3>
+                <a href="close-to-guangyu.html" >集团介绍</a>
+                <a href="close-to-guangyu.html" >发展历程</a>
+                <a href="close-to-guangyu.html" >企业荣誉</a>
+                <a href="close-to-guangyu.html" >企业文化</a>
+            </div>
+            <div class="copyright-link-item">
+                <h3>新闻中心</h3>
+                <a href="news.html">集团新闻</a>
+                <a href="news-detail.html">行业新闻</a>
+            </div>
+            <div class="copyright-link-item">
+                <h3>集团产业</h3>
+                <a href="guangyu-realestate.html">地产开发</a>
+                <a href="guangyu-construction.html">建筑施工</a>
+                <a href="guangyu-hotel.html">酒店服务</a>
+                <a href="guangyu-property.html">物业服务</a>
+            </div>
+            <div class="copyright-link-item">
+                <h3>联系我们</h3>
+                <a href="connect-us.html">联系我们</a>
+            </div>
+        </div>
+        <p class="font color-white">版权所有©2019&nbsp;重庆光宇建设开发集团&nbsp;渝ICP备0000号</p>
+    </div>
+</div>
+<script language="JavaScript">
+    $(function() {
+        $("img.pic").lazyload({
+            placeholder : "",
+            effect: "fadeIn"
+        });
+    });
+    // 鼠标点击事件
+    $(`#one-introduce`).on("click", function () {
+        $("#two-development").css("color", "#333");
+        $("#three-honer").css("color", "#333");
+        $("#four-culture").css("color", "#333");
+        $("#one-introduce").css("color", "blue");
+        $("#two").css("display", "none");
+        $("#three").css("display", "none");
+        $("#four").css("display", "none");
+        $("#one").css("display", "block");
+    });
+    $(`#two-development`).on("click", function () {
+        $("#one-introduce").css("color", "#333");
+        $("#three-honer").css("color", "#333");
+        $("#four-culture").css("color", "#333");
+        $("#two-development").css("color", "blue");
+        $("#one").css("display", "none");
+        $("#four").css("display", "none");
+        $("#three").css("display", "none");
+        $("#two").css("display", "block");
+    });
+    $(`#three-honer`).on("click", function () {
+        $("#one-introduce").css("color", "#333");
+        $("#two-development").css("color", "#333");
+        $("#four-culture").css("color", "#333");
+        $("#three-honer").css("color", "blue");
+        $("#one").css("display", "none");
+        $("#two").css("display", "none");
+        $("#four").css("display", "none");
+        $("#three").css("display", "block");
+    });
+    $(`#four-culture`).on("click", function () {
+        $("#one-introduce").css("color", "#333");
+        $("#two-development").css("color", "#333");
+        $("#three-honer").css("color", "#333");
+        $("#four-culture").css("color", "blue");
+        $("#one").css("display", "none");
+        $("#two").css("display", "none");
+        $("#three").css("display", "none");
+        $("#four").css("display", "block");
+    });
+</script>
+<script src="dist/js/public.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+<script src="dist/bootstarp/js/bootstrap.min.js"></script>
+</body>
+</html>

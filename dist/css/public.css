@@ -1,0 +1,254 @@
+/*白色透明度*/
+.color-white {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/*黑色明度*/
+.color-black {
+    background-color: rgba(26, 26, 32, 1);
+}
+
+/*内容区背景色*/
+.template-background-color {
+    position: relative;
+    width: 100%;
+}
+
+/*内容区大小*/
+.template-background {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    /*调试颜色*/
+    /*background-color: red;*/
+}
+
+/*头部导航栏样式*/
+.head-nav-style {
+    float: left;
+}
+
+li {
+    list-style: none;
+}
+
+.head-nav {
+    display: inline-block;
+    width: 100%;
+    padding-top: 15px;
+}
+
+.head-nav-con {
+    display: inline-block;
+    width: 1200px;
+    padding-left: 200px;
+    transform: translateY(-115%);
+}
+
+.drop-down-div {
+    transform: translateX(12%);
+}
+
+/*下拉选项属性*/
+.head-nav-con ul li {
+    width: 80px;
+    height: 69px;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 60px;
+    transform: translateY(53%);
+}
+
+.head-nav-con select {
+    margin-left: 115px;
+    top: 50px;
+    transform: translateY(272%);
+    border: none;
+    background-color: transparent;
+    width: 58px;
+}
+
+/*搜索图标*/
+.head-nav-con ul img {
+    float: right;
+    margin: 42px 45px 0 0;
+}
+
+/*鼠标移动上去时候的颜色*/
+.head-nav-con ul li:hover {
+    border-bottom: solid #337ab7 3px;
+}
+
+.head-nav-con ul a:hover {
+    color: #337ab7;
+}
+
+.head-nav-con ul a {
+    text-decoration: none;
+    color: #333;
+}
+
+.head-nav-con .drop-down {
+    position: relative;
+}
+
+/*鼠标移动上去选中时候颜色*/
+.head-nav-con .drop-down-content li:hover > a {
+    background-color: white;
+}
+
+.head-nav-con .drop-down-2 {
+    position: relative;
+}
+
+/*下拉遮盖层*/
+.cover {
+    position: absolute;
+    display: none;
+    z-index: 10;
+    width: 100%;
+    margin: 0 auto;
+    height: 70px;
+    top: 37px;
+    transform: translateY(90%);
+}
+
+/*走进光宇*/
+.cover-div {
+    display: inline-block;
+    margin-top: 18px;
+    left: 50px;
+    transform: translateX(110%);
+}
+
+.cover-div a {
+    font-size: 25px;
+    margin-left: 40px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+/*<!--新闻中心-->*/
+.cover-div-news {
+    display: inline-block;
+    margin-top: 18px;
+    left: 50px;
+    transform: translateX(327%);
+}
+
+.cover-div-news a {
+    font-size: 25px;
+    margin-left: 40px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+/*<!--集团产业-->*/
+.cover-div-produce {
+    display: inline-block;
+    margin-top: 18px;
+    left: 50px;
+    transform: translateX(155%);
+}
+
+.jituan {
+    display: none;
+    position: absolute;
+    background-color: black;
+    z-index: 10;
+}
+
+.cover-div-produce a {
+    font-size: 25px;
+    margin-left: 40px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.font-position {
+    top: 425px!important;
+}
+
+/*轮播图样式*/
+.item img {
+    width: 100%;
+    position: relative;
+    height: 650px !important;
+}
+
+.item-div {
+    position: absolute;
+    width: 350px;
+    top: 170px;
+    left: 26%;
+    color: #f5eaea;
+    text-shadow: 1px 1px 1px cornflowerblue;
+}
+
+.item-div p {
+    font-size: 27px;
+    line-height: 40px;
+}
+
+.item-div-border {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+}
+
+.item-div-p {
+    padding-top: 20px;
+}
+
+.item-div img {
+    width: 145px;
+    height: 75px !important;
+}
+
+/*底部导航栏样式*/
+.copyright {
+    padding: 10px 0;
+    width: 100%;
+    background-color: rgba(26, 26, 35, 1);
+}
+
+.copyright .copyright-link {
+    position: relative;
+}
+
+.copyright-link img {
+    width: 80%;
+}
+
+.copyright-link-item {
+    display: inline-table;
+    color: rgba(255, 255, 255, 0.8);
+    margin-left: 100px;
+}
+
+.copyright-link-item h3 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.copyright-link-item a {
+    color: rgba(255, 255, 255, 0.5);
+    display: block;
+    line-height: 33px;
+    font-size: 18px;
+    text-decoration: blink;
+}
+
+.copyright-link-item a:hover {
+    color: #337ab7;
+}
+
+.copyright p {
+    position: relative;
+    margin: 0;
+    padding: 18px 0;
+    text-align: center;
+    font-size: 18px;
+}
+

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>新闻详情</title>
+    <link rel="stylesheet" href="dist/bootstarp/css/bootstrap.min.css">
+    <link rel="stylesheet" href="dist/css/public.css">
+    <link rel="stylesheet" href="dist/css/media.css">
+    <link rel="stylesheet" href="dist/css/common.css">
+    <link rel="stylesheet" href="dist/css/mode/head.css">
+    <link rel="stylesheet" href="dist/css/mode/reset.css">
+</head>
+<body>
+<div class="template-background-color">
+    <div class="template-background" style="width: 100%">
+        <!--pc端导航-->
+        <header class="header">
+            <div class="container clearfix">
+                <div class="fl left">
+                    <a href="index.html">
+                        <img src="dist/img/1.首页/icon_LOGO.png"/>
+                    </a>
+                </div>
+                <div class="fr nav">
+                    <ul class="navbar_nav" data-in="fadeInDown" data-out="fadeOutUp">
+                        <li class="active">
+                            <a href="index.html">首页</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="close-to-guangyu.html">
+                                走进光宇
+                            </a>
+                            <div class="dropdown_menu">
+                                <a href="close-to-guangyu.html">集团介绍</a>
+                                <a href="close-to-guangyu.html">发展历程</a>
+                                <a href="close-to-guangyu.html">企业荣誉</a>
+                                <a href="close-to-guangyu.html">企业文化</a>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a href="news.html">新闻中心</a>
+                            <div class="dropdown_menu">
+                                <a href="news.html">新闻中心</a>
+                                <a href="news-detail.html">行业新闻</a>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a href="guangyu-construction.html">
+                                集团产业
+                            </a>
+                            <div class="dropdown_menu">
+                                <a href="guangyu-realestate.html">地产开发</a>
+                                <a href="guangyu-construction.html">建筑施工</a>
+                                <a href="guangyu-hotel.html">酒店服务</a>
+                                <a href="guangyu-property.html">物业服务</a>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="connect-us.html">联系我们</a>
+                        </li>
+                        <label style="margin:5px 10px 0 20px">
+                            <select>
+                                <option>EN</option>
+                                <option>Englis</option>
+                                <option>Austural</option>
+                            </select>
+                        </label>
+                        <a>
+                            <img src="dist/img/1.首页/icn-搜索.png" alt=""/>
+                        </a>
+                    </ul>
+                </div>
+                <a href="javascript:void(0)" id="navToggle">
+                    <span></span>
+                </a>
+            </div>
+        </header>
+        <!--移动端导航-->
+        <div class="m_nav">
+            <div class="top clearfix">
+                <img src="dist/css/mode/img/closed.png" class="closed"/>
+            </div>
+            <div class="logo">
+                <img src="dist/img/1.首页/icon_LOGO.png"/>
+            </div>
+            <ul class="ul" data-in="fadeInDown" data-out="fadeOutUp">
+                <li class="active">
+                    <a href="index.html">首页</a>
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)">
+                        走进光宇
+                    </a>
+                    <div class="dropdown_menu">
+                        <a href="close-to-guangyu.html">集团介绍</a>
+                        <a href="close-to-guangyu.html">发展历程</a>
+                        <a href="close-to-guangyu.html">企业荣誉</a>
+                        <a href="close-to-guangyu.html">企业文化</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)">新闻中心</a>
+                    <div class="dropdown_menu">
+                        <a href="news.html">新闻中心</a>
+                        <a href="news-detail.html">新闻中心</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)">
+                        集团产业
+                    </a>
+                    <div class="dropdown_menu">
+                        <a href="guangyu-realestate.html">地产开发</a>
+                        <a href="guangyu-construction.html">建筑施工</a>
+                        <a href="guangyu-hotel.html">酒店服务</a>
+                        <a href="guangyu-property.html">物业服务</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="connect-us.html">联系我们</a>
+                </li>
+            </ul>
+        </div>
+        <!--轮播图-->
+        <div id="myCarousel" class="carousel slide banner-location" data-ride="carousel" data-interval="2000">
+            <!-- 轮播（Carousel）项目 -->s
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img class="pic" src="dist/img/6新闻中心/img_news_detail.png"/>
+                    <div class="banner-font" style="top:50%;text-align: center">
+                        <p>新闻中心</p>
+                        <p style="line-height: 14px;font-size: 22px">News&nbsp;Center</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--内容区-->
+<div class="news-base">
+    <div class="news-detail">
+        <div class="news-detail-div">
+            <h3>新闻中心</h3>
+        </div>
+        <div class="news-detail-position">
+            <p>您当前的位置:首页</p>
+            <p style="color: #61AAF8;font-weight: 800">&nbsp;>&nbsp;行业新闻</p>
+        </div>
+    </div>
+    <div class="news-detail-title">
+        <h2>融创江南融府现场观摩会</h2>
+        <p>发布时间:&nbsp;2019年06月27日</p>
+    </div>
+    <div class="news-detail-content">
+        <div class="news-detail-content-header">
+            <p>6月27日，我司承建的融创江南融府项目，南岸区建委组织了“南岸区质量提升行动现场观摩会”。如图：</p>
+            <img class="pic" src="dist/img/6新闻中心/news-two.png"/>
+        </div>
+        <!--新闻主体内容-->
+        <div class="news-detail-content-font base-margin">
+            <p style="margin-top: 30px">
+                重庆市建设工程质量监督总站总工程师傅建华、南岸区城乡建委副主任周阳、南岸区建设工程质量监督站站长梁小平参加会议，我司总经理邱小宏先生作为特邀嘉宾参与了本次观摩会议。
+            </p>
+            <p>
+                本次观摩分别对该项目现场的多工序穿插作业和现场实际质量控制措施进行了观摩；通过这次观摩，更加提升了我司现场管理人员对快装快建新工艺的技术更新，为我司对快装快建等新工艺技能方面添砖加瓦
+            </p>
+        </div>
+        <div class="news-detail-content-return">
+            <p style="transform: translateY(116%);padding-right: 18px"><</p>
+            <div class="news-detail-content-return-div">
+                <a style="margin: 0 0 15px -55px" href="news.html">返回</a>
+                <a style="margin: -15px 0 10px 0" href="news.html">RETURNED</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="copyright">
+    <div class="template-background">
+        <div class="copyright-link">
+            <div class="head-nav-style">
+                <a href="index.html">
+                    <img class="pic" src="dist/img/1.首页/底部logo.png"/>
+                </a>
+            </div>
+            <!--底部导航栏-->
+            <div class="copyright-link-item">
+                <h3>走进光宇</h3>
+                <a href="close-to-guangyu.html">集团介绍</a>
+                <a href="close-to-guangyu.html">发展历程</a>
+                <a href="close-to-guangyu.html">企业荣誉</a>
+                <a href="close-to-guangyu.html">企业文化</a>
+            </div>
+            <div class="copyright-link-item">
+                <h3>新闻中心</h3>
+                <a href="news.html">集团新闻</a>
+                <a href="news-detail.html">行业新闻</a>
+            </div>
+            <div class="copyright-link-item">
+                <h3>集团产业</h3>
+                <a href="guangyu-realestate.html">地产开发</a>
+                <a href="guangyu-construction.html">建筑施工</a>
+                <a href="guangyu-hotel.html">酒店服务</a>
+                <a href="guangyu-property.html">物业服务</a>
+            </div>
+            <div class="copyright-link-item">
+                <h3>联系我们</h3>
+                <a href="connect-us.html">联系我们</a>
+            </div>
+        </div>
+        <p class="font color-white">版权所有©2019&nbsp;重庆光宇建设开发集团&nbsp;渝ICP备0000号</p>
+    </div>
+</div>
+<script src="dist/js/jquery-3.1.1.min.js"></script>
+<script src="dist/js/public.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+<script src="dist/bootstarp/js/bootstrap.min.js"></script>
+</body>
+</html>
